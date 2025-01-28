@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": ".."
+	},
+	{
+		"path": "../../../../Downloads/codingrooms-project"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "ZyBook 2"
+  }
+}
