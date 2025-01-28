@@ -5,5 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Week 3</title>
   </head>
-  <body></body>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="Index.html">Home</a>
+        </li>
+        <li>
+          <a href="moreforms.html">More Forms</a>
+        </li>
+      </ul>
+    </nav>
+
+    <h1>Containers & Forms</h1>
+
+    <form action="Index.html" method="get">
+      <div>
+        <label for="favoriteSnack">Favorite Snack</label>
+        <input
+          type="text"
+          name="favoriteSnack"
+          id="favoriteSnack"
+          placeholder="Sour Straws"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="leastFavoriteSnack">Least Favorite Snack</label>
+        <input
+          type="text"
+          name="leastFavoriteSnack"
+          id="leastFavoriteSnack"
+          value="Skittles"
+        />
+      </div>
+      <div>
+        <label for="explain">Explain</label>
+        <textarea name="explain" id="explain"></textarea>
+      </div>
+
+      <div>
+        <label for="snackColorMood">Snack Color Mood</label>
+        <input type="color" name="snackColorMood id=" snackColorMood />
+      </div>
+
+      <input type="submit" value="Submit Snacks" />
+    </form>
+  </body>
 </html>
