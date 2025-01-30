@@ -18,5 +18,85 @@
     </nav>
 
     <h1>Containers & Forms</h1>
+
+    <form action="moreforms.html" method="get">
+      <div>
+        <input
+          type="checkbox"
+          name="soulContract"
+          id="soulContract"
+          checked
+          required
+          value="Signed"
+        />
+        <label for="soulContract">Sign way your soul</label>
+      </div>
+
+      <fieldset>
+        <legend>Contract</legend>
+
+        <div>
+          <input
+            type="radio"
+            name="lengthContract"
+            id="lengthContract1"
+            value="1"
+          />
+          <label for="lengthContract1">1 Year</label>
+        </div>
+
+        <div>
+          <input
+            type="radio"
+            name="lengthContract"
+            id="lengthContract2"
+            value="5"
+          />
+          <label for="lengthContract2">5 Year</label>
+        </div>
+
+        <div>
+          <input
+            type="radio"
+            name="lengthContract"
+            id="lengthContract3"
+            value="50"
+          />
+          <label for="lengthContract3">50 Year</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Personal Info</legend>
+
+        <div>
+          <label for="fullname">Full Name</label>
+          <input
+            type="text"
+            name="fullname"
+            id="fullname"
+            required
+            list="commonNames"
+          />
+
+          <datalist id="commonNames">
+            <option value="Scrappy">Scrappy</option>
+            <option value="Meowth">Meowth</option>
+            <option value="Human">Human</option>
+          </datalist>
+        </div>
+
+        <select name="title" id="title">
+          <option value="Necromancer">Necromancer</option>
+          <option value="Jester">Jester</option>
+          <option value="Rouge">Rouge</option>
+          <option value="Janitor"></option>
+        </select>
+      </fieldset>
+
+      <div>
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
   </body>
 </html>
