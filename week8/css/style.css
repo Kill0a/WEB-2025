@@ -16,32 +16,27 @@ h6,
 p {
   margin-bottom: 16px;
 }
+
 body {
-  background-color: bisque;
+  background-color: #d59471;
 }
+
 nav {
-  background-color: #95593057;
+  background-color: #ab4b11;
 }
 
 nav ul {
-  height: 50px;
-  list-style: none;
-
   display: flex;
   align-items: center;
-  gap: 40pc;
-}
+  gap: 40px;
 
-nav ul li {
-  font-size: 24px;
+  height: 50px;
+  list-style: none;
+  padding: 0px 20px;
 }
 
 nav ul li a {
+  font-size: 24px;
   text-decoration: none;
   color: white;
-}
-
-.item {
-  margin-left: 16px;
-  border: 1px solid black;
 }
