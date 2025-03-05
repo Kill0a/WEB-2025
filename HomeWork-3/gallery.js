@@ -10,9 +10,7 @@ const photoList = [
 ];
 
 image.src = photoList[i];
-image.alt = 'image {i + i}';
-img.hight = 300px;
-
+image.alt = "image {i + i}";
+img.hight = 300;
 
 const gallerySection = document.getElementById("gallery-section");
-
