@@ -10,7 +10,6 @@ function startStory() {
   let choice1 = confirm("Do you want to enter the forest?");
 
   if (choice1) {
-    // If the player chooses to enter the house
     let choice2 = prompt(
       "You see two paths: left and right. Which one do you choose? (type 'left' or 'right')"
     );
