@@ -1,28 +1,41 @@
 const menuRef = document.querySelector("#catalog");
 
-const menuItems = [
+const catalogItems = [
   {
-    image: "",
-    name: "",
+    image: "https://picsum.photos/200/200",
+    name: "img1",
   },
   {
-    image: "",
-    name: "",
+    image: "https://picsum.photos/200/200",
+    name: "img2",
   },
   {
-    image: "",
-    name: "",
+    image: "https://picsum.photos/200/200",
+    name: "img3",
+  },
+  {
+    image: "https://picsum.photos/200/200",
+    name: "img4",
+  },
+  {
+    image: "https://picsum.photos/200/200",
+    name: "img5",
+  },
+  {
+    image: "https://picsum.photos/200/200",
+    name: "im6",
   },
 ];
 
-catalogRef.innerHTML = "";
+// Is not updating!!???
 
+catalogRef.innerHTML = "catalog";
 for (let i = 0; i < catalog.length; i++) {
   const element = catalog[i];
 
   const newArticle = document.createElement("article");
   constnewImg = document.createElement("img");
-  newImg.src = menuItems.image;
+  newImg.src = catalogItems.image;
   newArticle.appendChild(newImg);
 
   const newP = "<p>" + item.name + "</p>";
